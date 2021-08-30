@@ -1,0 +1,15 @@
+.btn {
+  @apply text-white rounded h-10 inline-flex items-center justify-center px-4;
+}
+
+.btn-secondary {
+  @apply bg-gray-700 hover:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-300;
+}
+
+.btn-primary {
+  @apply bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-300;
+}
+
+.btn-success {
+  @apply bg-green-700 hover:bg-green-800 focus:outline-none focus:ring focus:ring-green-300;
+}
