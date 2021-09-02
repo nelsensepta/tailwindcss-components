@@ -4,6 +4,8 @@ import ColorsPallete from "../components/ColorsPallete";
 import Grid from "../components/Grid";
 import Responsive from "../components/Responsive";
 import Navbar from "../components/Navbar";
+import Drawer from "../components/Drawer";
+import BlogDetail from "../components/BlogDetail";
 
 export default function Home() {
   return (
@@ -13,6 +15,10 @@ export default function Home() {
     //   <Navbar />
     // </div>
     <Navbar />
+    // <div className="flex justify-center items-center min-h-screen">
+    //   <Drawer />
+    // </div>
+    // <BlogDetail />
   );
 }
 
